@@ -3,10 +3,30 @@
   "WorkspaceRootPath": "D:\\project\\gestion association\\gestion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|d:\\project\\gestion association\\gestion\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|d:\\project\\gestion association\\gestion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64D88C06-3F4A-4D4E-8294-02B810CF1F90}|..\\src\\Gestion.Infrastructure\\Gestion.Infrastructure.csproj|d:\\project\\gestion association\\src\\gestion.infrastructure\\data\\gestiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -51,28 +71,11 @@
       "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|d:\\project\\gestion association\\gestion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|d:\\project\\gestion association\\gestion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|d:\\project\\gestion association\\gestion\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0085409-D073-4783-9004-6A0AEA5FBC9E}|gestion.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\implementations\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5095B4F8-8C37-426F-A93F-961AF0FF4FC1}|..\\src\\Gestion.Application\\Gestion.Application.csproj|d:\\project\\gestion association\\src\\gestion.application\\dtos\\users\\request\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -82,9 +85,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{5095B4F8-8C37-426F-A93F-961AF0FF4FC1}|..\\src\\Gestion.Application\\Gestion.Application.csproj|d:\\project\\gestion association\\src\\gestion.application\\dtos\\users\\response\\authresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6507601B-E5E9-44C5-A0A1-9AF9644EC8BD}|..\\src\\Gestion.Core\\Gestion.Core.csproj|d:\\project\\gestion association\\src\\gestion.core\\services\\interfaces\\iserviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -103,6 +103,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{5095B4F8-8C37-426F-A93F-961AF0FF4FC1}|..\\src\\Gestion.Application\\Gestion.Application.csproj|d:\\project\\gestion association\\src\\gestion.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D88C06-3F4A-4D4E-8294-02B810CF1F90}|..\\src\\Gestion.Infrastructure\\Gestion.Infrastructure.csproj|d:\\project\\gestion association\\src\\gestion.infrastructure\\migrations\\20250418111556_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -112,37 +115,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250418111008_init.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:10:09.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250418110837_init.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:08:37.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\gestion\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\project\\gestion association\\gestion\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwCEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:16:03.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:46:05.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:45:26.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\gestion\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\project\\gestion association\\gestion\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwFUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:00:48.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "20250418110729_init.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418110729_init.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418110729_init.cs",
@@ -150,37 +176,47 @@
               "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418110729_init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:07:29.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T11:07:29.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Notifications.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Notifications.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\Notifications.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Notifications.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Core\\Entities\\Notifications.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAewBAAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:45:21.482Z"
+              "WhenOpened": "2025-04-17T22:48:42.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Resident.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Resident.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\Resident.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Resident.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Core\\Entities\\Resident.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA/wCQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:14:21.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T22:47:35.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "GestionDbContext.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAH8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:51:55.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Rooms.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Rooms.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\Rooms.cs",
@@ -192,20 +228,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionDbContext.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Data\\GestionDbContext.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAH4AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Resident.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Resident.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\Resident.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Resident.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Core\\Entities\\Resident.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T22:51:55.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T00:14:21.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 33,
+              "Title": "20250418111556_init.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111556_init.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418111556_init.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111556_init.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418111556_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T11:15:56.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250418110837_init.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418110837_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T11:08:37.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250418111008_init.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418111008_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T11:10:09.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Notifications.cs",
+              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Notifications.cs",
+              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\Notifications.cs",
+              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Notifications.cs",
+              "RelativeToolTip": "..\\src\\Gestion.Core\\Entities\\Notifications.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T00:45:21.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "20250418023015_init.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Migrations\\20250418023015_init.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Migrations\\20250418023015_init.cs",
@@ -217,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "WashingMachine.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\WashingMachine.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\WashingMachine.cs",
@@ -229,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\Class1.cs",
@@ -237,12 +320,11 @@
               "RelativeToolTip": "..\\src\\Gestion.Infrastructure\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:55:19.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T21:55:19.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "AdministrativeTask.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\AdministrativeTask.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\AdministrativeTask.cs",
@@ -254,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "AdministrativeDocument.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\AdministrativeDocument.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\AdministrativeDocument.cs",
@@ -266,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Absence.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Absence.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\Absence.cs",
@@ -278,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "SeedRole.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\SeedRole.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Infrastructure\\SeedRole.cs",
@@ -290,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Courrier.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\Courrier.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\Courrier.cs",
@@ -302,43 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\gestion\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\project\\gestion association\\gestion\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwDIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:16:03.685Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Implementations\\AuthService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAD4vw4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T22:45:26.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T22:46:05.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Entities\\BaseEntity.cs",
@@ -350,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\project\\gestion association\\gestion\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -362,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "ServiceResult.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\ServiceResult.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Implementations\\ServiceResult.cs",
@@ -374,19 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\gestion\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\project\\gestion association\\gestion\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:00:48.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Register.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Application\\Dtos\\Users\\Request\\Register.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Application\\Dtos\\Users\\Request\\Register.cs",
@@ -398,19 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Implementations\\TokenService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAD4vw8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T22:47:35.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Application\\Dtos\\Users\\Request\\Login.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Application\\Dtos\\Users\\Request\\Login.cs",
@@ -419,18 +441,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T22:23:21.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "..\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
-              "ToolTip": "D:\\project\\gestion association\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeToolTip": "..\\src\\Gestion.Core\\Services\\Interfaces\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T22:48:42.233Z"
             },
             {
               "$type": "Document",
@@ -446,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "AuthResp.cs",
               "DocumentMoniker": "D:\\project\\gestion association\\src\\Gestion.Application\\Dtos\\Users\\Response\\AuthResp.cs",
               "RelativeDocumentMoniker": "..\\src\\Gestion.Application\\Dtos\\Users\\Response\\AuthResp.cs",

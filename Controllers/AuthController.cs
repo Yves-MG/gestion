@@ -32,6 +32,7 @@ namespace gestion.Controllers
         public async Task<IActionResult> Login([FromBody] Login loginDto)
         {
             var result = await _authService.LoginAsync(loginDto);
+            if (!result.IsSuccess) return Unauthorized(result.Message);
             if (result == null)
                 return Unauthorized("Email ou mot de passe incorrect.");
 

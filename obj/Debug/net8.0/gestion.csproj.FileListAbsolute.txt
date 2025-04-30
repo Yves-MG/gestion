@@ -262,3 +262,4 @@ D:\project\gestion association\gestion\bin\Debug\net8.0\Gestion.Infrastructure.d
 D:\project\gestion association\gestion\bin\Debug\net8.0\Gestion.Infrastructure.pdb
 D:\project\gestion association\gestion\bin\Debug\net8.0\Gestion.Application.pdb
 D:\project\gestion association\gestion\bin\Debug\net8.0\Gestion.Core.pdb
+D:\project\gestion association\gestion\obj\Debug\net8.0\gestion.sourcelink.json
