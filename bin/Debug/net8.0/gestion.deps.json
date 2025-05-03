@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "gestion/1.0.0": {
         "dependencies": {
+          "Gestion.Application": "1.0.0",
           "Gestion.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
@@ -1936,6 +1937,9 @@
         }
       },
       "Gestion.Application/1.0.0": {
+        "dependencies": {
+          "Gestion.Core": "1.0.0"
+        },
         "runtime": {
           "Gestion.Application.dll": {
             "assemblyVersion": "1.0.0",
@@ -1945,7 +1949,6 @@
       },
       "Gestion.Core/1.0.0": {
         "dependencies": {
-          "Gestion.Application": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.0"

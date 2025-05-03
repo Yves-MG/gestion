@@ -1,16 +1,21 @@
+Ôªøusing System;
 using System.Text;
+using Gestion.Application.Services.Implementations;
+using Gestion.Application.Services.Interfaces;
 using Gestion.Core.Entities;
+using Gestion.Core.Interfaces;
 using Gestion.Core.Services.Implementations;
 using Gestion.Core.Services.Interfaces;
 using Gestion.Infrastructure;
 using Gestion.Infrastructure.Data;
+using Gestion.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-//configuration de la base de donnÈes
+//configuration de la base de donn√©es
 builder.Services.AddDbContext<GestionDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -18,14 +23,19 @@ builder.Services.AddDbContext<GestionDbContext>(options =>
         {
             sql.MigrationsAssembly("Gestion.Infrastructure");
             //sql.EnableRetryOnFailure();
-        });
+        })
+    //Log console 
+
+    .EnableSensitiveDataLogging() // Affiche les valeurs dans les logs (‚ö†Ô∏è √† d√©sactiver en prod)
+    .LogTo(Console.WriteLine, LogLevel.Information); // Affiche les requ√™tes SQL
+
 });
 
-//configuration de l'identitÈ
+//configuration de l'identit√©
 builder.Services.AddIdentity<User, Role>()
        .AddRoles<Role>()
-       .AddEntityFrameworkStores<GestionDbContext>() //stockage des donnÈes dans la base de donnÈes
-       .AddDefaultTokenProviders(); //ajout des jetons par dÈfaut
+       .AddEntityFrameworkStores<GestionDbContext>() //stockage des donn√©es dans la base de donn√©es
+       .AddDefaultTokenProviders(); //ajout des jetons par d√©faut
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 // Add services to the container.
@@ -35,6 +45,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAuthorization();
 //builder.Services.AddAuthentication().AddCookie(IdentityConstants.ApplicationScheme);
+builder.Services.AddScoped<IResidentRepository, ResidentRepository>();
+builder.Services.AddScoped<IResidentService, ResidentService>();
+builder.Services.AddScoped<IRoomsRepository, RoomsRepository>();
+builder.Services.AddScoped<IRoomService, RoomsService>();
+builder.Services.AddScoped(typeof(IEntityRepository<>), typeof(EntityRepository<>));
+
+
+
 
 //.AddDefaultTokenProviders();
 //configuration jwt
@@ -73,7 +91,7 @@ builder.Services.AddCors(options =>
 // Add services to the container.
 
 var app = builder.Build();
-// Initialisation des rÙles au dÈmarrage de l'application
+// Initialisation des r√¥les au d√©marrage de l'application
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<Role>>();
@@ -87,7 +105,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseCors("AllowAngularApp");
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

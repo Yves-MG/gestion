@@ -48,6 +48,42 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "gestion.Controllers.ResidentController",
+    "Method": "ListResident",
+    "RelativePath": "api/Resident/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Gestion.Core.Services.Interfaces.IServiceResult\u00601[[System.Collections.Generic.List\u00601[[Gestion.Core.Entities.Resident, Gestion.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "gestion.Controllers.ResidentController",
+    "Method": "CreateResident",
+    "RelativePath": "api/Resident/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "Gestion.Application.Dtos.Residents.CreateResidentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "gestion.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

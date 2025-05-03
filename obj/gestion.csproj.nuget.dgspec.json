@@ -32,6 +32,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\project\\gestion association\\src\\Gestion.Application\\Gestion.Application.csproj": {
+                "projectPath": "D:\\project\\gestion association\\src\\Gestion.Application\\Gestion.Application.csproj"
+              },
               "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Gestion.Infrastructure.csproj": {
                 "projectPath": "D:\\project\\gestion association\\src\\Gestion.Infrastructure\\Gestion.Infrastructure.csproj"
               }
@@ -121,7 +124,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\project\\gestion association\\src\\Gestion.Core\\Gestion.Core.csproj": {
+                "projectPath": "D:\\project\\gestion association\\src\\Gestion.Core\\Gestion.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -186,11 +193,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\project\\gestion association\\src\\Gestion.Application\\Gestion.Application.csproj": {
-                "projectPath": "D:\\project\\gestion association\\src\\Gestion.Application\\Gestion.Application.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

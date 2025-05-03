@@ -1,82 +1,73 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Gestion.Application.Dtos.Residents;
+using Gestion.Application.Dtos.Users.Request;
+using Gestion.Application.Services.Interfaces;
+using Gestion.Core.Entities;
+using Gestion.Core.Interfaces;
+using Gestion.Core.Services.Implementations;
+using Gestion.Core.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace gestion.Controllers
 {
-    public class ResidentController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ResidentController : ControllerBase
     {
-        // GET: ResidentController
-        public ActionResult Index()
+        private readonly IResidentService _residentService;
+        private readonly IEntityRepository<Resident> _residentRepository;
+        public ResidentController(IResidentService residentService, IEntityRepository<Resident> residentRepository)
         {
-            return View();
+            _residentService = residentService;
+            _residentRepository = residentRepository;
         }
 
-        // GET: ResidentController/Details/5
-        public ActionResult Details(int id)
+        /// <summary>
+        [HttpPost("create")]
+        [Authorize]
+        //[ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateResident([FromBody] CreateResidentDto registerDto)
         {
-            return View();
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                // Fix: Ensure RoomId is not null or empty before converting to Guid  
+                if (string.IsNullOrEmpty(registerDto.RoomId))
+                {
+                    return BadRequest(new { message = "RoomId cannot be null or empty." });
+                }
+                await _residentService.CreateResidentAsync(registerDto);
+
+                return Ok(new { message = "Resident created successfully." });
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                // Log l'erreur ici si tu as un logger  
+                return StatusCode(500, new { message = "An error occurred while creating the resident.", details = ex.Message });
+            }
         }
 
-        // GET: ResidentController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
+        [HttpGet("all")]
+        [Authorize]
 
-        // POST: ResidentController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IServiceResult<List<Resident>>> ListResident()
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                List<Resident> residents = await _residentRepository.GetAllAsync();
+                return ServiceResult<List<Resident>>.Success("Residents retrieved successfully", residents);
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
-            }
-        }
-
-        // GET: ResidentController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ResidentController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ResidentController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ResidentController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
+                return ServiceResult<List<Resident>>.Failure($"An error occurred: {ex.Message}");
             }
         }
     }
