@@ -1,0 +1,14 @@
+D:\project\gestion association\src\Gestion.Core\bin\Debug\net8.0\Gestion.Core.deps.json
+D:\project\gestion association\src\Gestion.Core\bin\Debug\net8.0\Gestion.Core.runtimeconfig.json
+D:\project\gestion association\src\Gestion.Core\bin\Debug\net8.0\Gestion.Core.dll
+D:\project\gestion association\src\Gestion.Core\bin\Debug\net8.0\Gestion.Core.pdb
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.csproj.AssemblyReference.cache
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.AssemblyInfoInputs.cache
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.AssemblyInfo.cs
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.csproj.CoreCompileInputs.cache
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.dll
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\refint\Gestion.Core.dll
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.pdb
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\Gestion.Core.genruntimeconfig.cache
+D:\project\gestion association\src\Gestion.Core\obj\Debug\net8.0\ref\Gestion.Core.dll

@@ -1,0 +1,17 @@
+D:\project\gestion association\src\Gestion.Infrastructure\bin\Debug\net8.0\Gestion.Infrastructure.deps.json
+D:\project\gestion association\src\Gestion.Infrastructure\bin\Debug\net8.0\Gestion.Infrastructure.runtimeconfig.json
+D:\project\gestion association\src\Gestion.Infrastructure\bin\Debug\net8.0\Gestion.Infrastructure.dll
+D:\project\gestion association\src\Gestion.Infrastructure\bin\Debug\net8.0\Gestion.Infrastructure.pdb
+D:\project\gestion association\src\Gestion.Infrastructure\bin\Debug\net8.0\Gestion.Core.dll
+D:\project\gestion association\src\Gestion.Infrastructure\bin\Debug\net8.0\Gestion.Core.pdb
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.csproj.AssemblyReference.cache
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.AssemblyInfoInputs.cache
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.AssemblyInfo.cs
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.csproj.CoreCompileInputs.cache
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion..E3103346.Up2Date
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.dll
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\refint\Gestion.Infrastructure.dll
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.pdb
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\Gestion.Infrastructure.genruntimeconfig.cache
+D:\project\gestion association\src\Gestion.Infrastructure\obj\Debug\net8.0\ref\Gestion.Infrastructure.dll
